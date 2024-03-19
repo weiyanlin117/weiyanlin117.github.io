@@ -29,7 +29,7 @@ jobs:
           cd "${GITHUB_WORKSPACE}"
           cd CommunityDocs
           swift package --allow-writing-to-directory docs generate-documentation --target CommunityDocs --disable-indexing --transform-for-static-hosting --hosting-base-path / --output-path ../docs
-          echo '<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=https://weiyanlin117.github.io/documentation/communitydocs">' > docs/index.html
+          echo '<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=https://weiyanlin117.github.io/documentation/communitydocs">' > ../docs/index.html
           
 
       - name: Add and commit documentation
