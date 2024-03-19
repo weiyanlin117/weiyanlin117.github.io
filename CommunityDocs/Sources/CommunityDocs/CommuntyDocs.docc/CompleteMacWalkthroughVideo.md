@@ -1,4 +1,4 @@
-# Drawthings Community Docs & Tutorials
+# Drawthings Community Docs & Tutorials - Mac Walkthrough Video
 
 
 ## Complete Mac Walkthrough Video (Jan '24)
