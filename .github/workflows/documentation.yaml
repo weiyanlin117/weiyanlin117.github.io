@@ -28,7 +28,7 @@ jobs:
         run: |
           cd "${GITHUB_WORKSPACE}"
           cd Drawthings
-          swift package --allow-writing-to-directory docs generate-documentation --target Drawthings --disable-indexing --transform-for-static-hosting --hosting-base-path / --output-path ../docs
+          swift package --allow-writing-to-directory docs generate-documentation --target DrawThings --disable-indexing --transform-for-static-hosting --hosting-base-path / --output-path ../docs
           echo '<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=https://weiyanlin117.github.io/documentation/drawthings">' > ../docs/index.html
 
 
